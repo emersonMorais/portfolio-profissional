@@ -1,29 +1,38 @@
-.presentation {
-  display: flex;
-  justify-content: space-between;
+.presentation-bg {
   background-color: var(--primary-color);
   color: var(--secondary-color-white);
+  
+}
+
+.presentation {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   max-width: 140rem;
   padding: 4rem 6rem;
+  
+  gap: 7.2rem;
 }
 
 .presentation-content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 72px;
-  max-width: 50vw;
 }
 
-.presentation-content h1 {
+.presentation h1 {
   color: var(--secondary-color);  
 }
 
-.presentation-content .presentation-title{
+.presentation .presentation-title{
   color: var(--color-highlights);
 }
 
-.presentation-content a{
+.presentation-content p {
+  font-size: 1.4rem;
+  line-height: 130%;
+}
+
+.presentation a{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,24 +50,22 @@
   height: 4rem; 
 }
 
-.presentation img {
+.presentation-bg img {
   min-width: 3rem;
   min-height: 3rem;
 }
 
 @media (max-width: 990px ) {
-  .presentation{
-    display: flex;
-    flex-direction: column;
-    align-items:flex-start;
-    gap: 70px;
+  .presentation {
+    grid-template-columns: 1fr;
+    gap: 4rem;
   }
 
-  .presentation-content  {
-    max-width: 100vw;
+  .presentation-content {
+    gap: 4rem ;
   }
 
-  .presentation-content a {
+  .presentation a {
     width: 50vw;  
   }
  
