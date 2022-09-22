@@ -1,10 +1,10 @@
 .presentation {
   display: flex;
   justify-content: space-between;
-  background-color: #1E1C25;
-  color: #FFF;
-
-  padding: 40px 60px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color-white);
+  max-width: 140rem;
+  padding: 4rem 6rem;
 }
 
 .presentation-content {
@@ -16,39 +16,34 @@
 }
 
 .presentation-content h1 {
-  color: #fff;
-  font-size: 2.5em;
-  
+  color: var(--secondary-color);  
 }
 
 .presentation-content .presentation-title{
-  color: #07FF93;
-}
-
-.presentation-content p {
-  line-height: 28px;
-  
+  color: var(--color-highlights);
 }
 
 .presentation-content a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
   text-decoration: none;
   text-align: center;
-  color: #1E1C25;
+  color: var(--primary-color);
   font-weight: 700;
   
-  border: solid 2px #FFF;
-  border-radius: 40px;
+  border: solid 2px var(--secondary-color-white);
+  border-radius: 4rem;
   
-  background-color: #07FF93;
-  width:30vw;
-  height: 6vh;
-  padding-top: 1rem;
-
+  background-color: var(--color-highlights);
+  width:24rem;
+  height: 4rem; 
 }
 
 .presentation img {
-  min-width: 30%;
-  min-height: 30%;
+  min-width: 3rem;
+  min-height: 3rem;
 }
 
 @media (max-width: 990px ) {
@@ -64,7 +59,7 @@
   }
 
   .presentation-content a {
-    width: 60vw;
+    width: 50vw;  
   }
  
 }
