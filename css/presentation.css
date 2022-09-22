@@ -1,8 +1,9 @@
-.container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.presentation {
+  display: flex;
+  justify-content: space-between;
   background-color: #1E1C25;
   color: #FFF;
+
   padding: 40px 60px;
 }
 
@@ -12,7 +13,6 @@
   justify-content: space-between;
   gap: 72px;
   max-width: 50vw;
-  flex-wrap: wrap;
 }
 
 .presentation-content h1 {
@@ -46,14 +46,16 @@
 
 }
 
-.container img {
+.presentation img {
   min-width: 30%;
   min-height: 30%;
 }
 
 @media (max-width: 990px ) {
-  .container{
-    grid-template-columns: 1fr;
+  .presentation{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
     gap: 70px;
   }
 
