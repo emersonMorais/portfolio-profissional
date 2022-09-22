@@ -6,7 +6,7 @@
 
 .presentation {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   max-width: 140rem;
   padding: 4rem 6rem;
   
@@ -50,15 +50,26 @@
   height: 4rem; 
 }
 
-.presentation-bg img {
-  min-width: 3rem;
-  min-height: 3rem;
+@media (max-width: 800px ) {
+  .presentation {
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+  }
+
+  .presentation-content {
+    gap: 4rem ;
+  }
+
+  .presentation a {
+    width: 50vw;  
+  }
+ 
 }
 
-@media (max-width: 990px ) {
+@media (max-width: 500px ) {
   .presentation {
     grid-template-columns: 1fr;
-    gap: 4rem;
+    gap: 2rem;
   }
 
   .presentation-content {
