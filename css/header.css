@@ -19,6 +19,7 @@
 
 .header-menu a{
   font-size: 1.4rem;
+  line-height: 150%;
   padding: 0.8rem 0.8rem;
   justify-content: center; 
   color: var(--secondary-color);
@@ -31,5 +32,11 @@
 @media (max-width: 800px ) {
   .header {
     flex-direction: column;
+    gap: 2rem 2rem;
   }
+
+  .header-menu a{
+    font-size: 1.2rem;
+  }
+ 
 }

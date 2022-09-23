@@ -27,9 +27,13 @@
   color: var(--color-highlights);
 }
 
-.presentation-content p {
+.presentation-desc {
   font-size: 1.4rem;
   line-height: 130%;
+}
+
+.presentation-content .presentation-phrase{
+  color: var(--color-highlights);
 }
 
 .presentation-bg img {
@@ -52,6 +56,8 @@
   background-color: var(--color-highlights);
   width:24rem;
   height: 4rem; 
+
+  background: linear-gradient(to right,#2F634C, #14FE99);
 }
 
 @media (max-width: 800px ) {
