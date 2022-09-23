@@ -25,7 +25,7 @@
   color: var(--secondary-color);
 }
 
-.header-menu  a:hover {
+.header-menu  a {
   border-bottom: solid 0.5px var(--color-highlights);
 }
 
