@@ -21,7 +21,7 @@
   font-size: 1.4rem;
   padding: 0.8rem 0.8rem;
   justify-content: center; 
-  color: #FFF;
+  color: var(--secondary-color);
 }
 
 .header-menu  a:hover {

@@ -1,0 +1,27 @@
+.experience {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 140rem;
+  padding: 4rem 6rem;
+  align-items: center;
+  gap: 7.2rem;
+
+  background-color: #f6f6f6;
+}
+
+.experience-company {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.experience-card{
+  background-color: var(--secondary-color);
+}
+
+
+@media (max-width: 800px) {
+  .experience {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,12 +1,12 @@
 .presentation-bg {
   background-color: var(--primary-color);
-  color: var(--secondary-color-white);
+  color: var(--secondary-color);
   
 }
 
 .presentation {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
   max-width: 140rem;
   padding: 4rem 6rem;
   
@@ -32,6 +32,10 @@
   line-height: 130%;
 }
 
+.presentation-bg img {
+  width: 45vw;
+}
+
 .presentation a{
   display: flex;
   align-items: center;
@@ -42,7 +46,7 @@
   color: var(--primary-color);
   font-weight: 700;
   
-  border: solid 2px var(--secondary-color-white);
+  border: solid 2px var(--secondary-color);
   border-radius: 4rem;
   
   background-color: var(--color-highlights);
@@ -52,7 +56,7 @@
 
 @media (max-width: 800px ) {
   .presentation {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 4rem;
   }
 
@@ -62,6 +66,10 @@
 
   .presentation a {
     width: 50vw;  
+  }
+
+  .presentation img {
+    display: none;
   }
  
 }
