@@ -1,12 +1,11 @@
 @import "normalize.css";
 @import "global.css";
-@import "header.css";
-@import "presentation.css";
-@import "experience.css";
-@import "about-me.css";
-@import "projects.css";
-@import "knowledgements.css";
-@import "footer.css";
+@import "header/header.css";
+@import "presentation/presentation.css";
+@import "experience/experience.css";
+@import "about/about-me.css";
+@import "projects/projects.css";
+@import "footer/footer.css";
 
 
 
