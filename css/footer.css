@@ -1,14 +1,17 @@
-.about-me {
+.footer{
+
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 140rem;
   padding: 4rem 6rem;
   align-items: center;
   gap: 7.2rem;
-
   background-color: var(--primary-color);
+  width: 100vw;
   color: var(--secondary-color);
-
+  min-height: 20rem;
+  display: flex;
+  align-items: center;
 }
 
 @media (max-width: 800px) {

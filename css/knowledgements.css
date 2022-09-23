@@ -1,15 +1,12 @@
-.about-me {
-  display: grid;
+.knowledgements {
   grid-template-columns: 1fr 1fr;
   max-width: 140rem;
   padding: 4rem 6rem;
   align-items: center;
   gap: 7.2rem;
-
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
-
 }
+
+
 
 @media (max-width: 800px) {
   .experience {
