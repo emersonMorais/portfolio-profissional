@@ -3,20 +3,10 @@
   color: var(--secondary-color);
   
 }
-
-.presentation {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  max-width: 140rem;
-  padding: 4rem 6rem;
-  
-  gap: 7.2rem;
-}
-
 .presentation-content {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 5rem;
 }
 
 .presentation h1 {
